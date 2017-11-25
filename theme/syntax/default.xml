@@ -49,8 +49,8 @@
       <style token="COMMENT_KEYWORD" fg="ae9fbf"/>
       <style token="COMMENT_MARKUP" fg="ae9fbf"/>
       <style token="LITERAL_BOOLEAN" fg="569cd6" bold="false"/>
-      <style token="LITERAL_NUMBER_DECIMAL_INT" fg="b5cea8"/>
-      <style token="LITERAL_NUMBER_FLOAT" fg="b5cea8"/>
+      <style token="LITERAL_NUMBER_DECIMAL_INT" fg="6897bb"/>
+      <style token="LITERAL_NUMBER_FLOAT" fg="6897bb"/>
       <style token="LITERAL_NUMBER_HEXADECIMAL" fg="b5cea8"/>
       <style token="LITERAL_STRING_DOUBLE_QUOTE" fg="d69d85"/>
       <style token="LITERAL_CHAR" fg="d69d85"/>

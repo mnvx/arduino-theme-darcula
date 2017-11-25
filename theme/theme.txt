@@ -13,7 +13,7 @@ status.notice.fgcolor = #dcdcdc
 status.notice.bgcolor = #2d2d30
 status.error.fgcolor = #CDD3DE
 status.error.bgcolor = #B05313
-status.edit.fgcolor = #FFFFFF
+status.edit.fgcolor = #EEEEEE
 status.edit.bgcolor = #007acc
 status.font = SansSerif,plain,12
 
@@ -44,21 +44,21 @@ linestatus.bgcolor = #007acc
 # EDITOR - DETAILS
 
 # foreground and background colors
-editor.fgcolor = #DCDCDC
-editor.bgcolor = #1E1E1E
+editor.fgcolor = #A9B7C6
+editor.bgcolor = #2B2B2B
 
 # highlight for the current line
-editor.linehighlight.color=#0F0F0F
+editor.linehighlight.color=#323232
 editor.linehighlight=true
 
 # caret blinking and caret color
-editor.caret.color = #a0a0a0
+editor.caret.color = #BBBBBB
 
 # color to be used for background when 'external editor' enabled
 editor.external.bgcolor = #3D3D3D
 
 # selection color
-editor.selection.color = #006AB0
+editor.selection.color = #214283
 
 # area that's not in use by the text (replaced with tildes)
 editor.invalid.style = #7e7e7e,bold
@@ -75,7 +75,7 @@ editor.brackethighlight.color = #000000
 # TEXT - KEYWORDS
 
 # FUNCTIONS
-editor.keyword1.style = #FF00F0,plain
+editor.keyword1.style = #CC7832,plain
 editor.data_type.style = #4ec9b0,plain // Lib class names
 
 # METHODS
@@ -84,28 +84,35 @@ editor.function.style = #dcdcdc,plain // lib methods
 
 # STRUCTURES
 editor.keyword3.style = #DE00FF,plain
-editor.reserved_word.style = #569cd6,plain
+# for, if, else, setup, loop...
+editor.reserved_word.style = #CC7832,plain
 
 
 # TEXT - LITERALS
+editor.literal_number_decimal_int = #555555,plain
 
 # constants & datatypes
-editor.literal1.style = #b5cea8,plain
+editor.literal1.style = #CC7832,plain
 
 # p5 built in variables: e.g. mouseX, width, pixels
-editor.literal2.style = #b5cea8,plain
+editor.literal2.style = #CC7832,plain
 editor.variable.style = #dcdcdc,plain
-editor.reserved_word_2.style = #569cd6,plain
-editor.literal_boolean.style = #569cd6,plain
-editor.literal_char.style = #d69d85,plain
-editor.literal_string_double_quote.style = #d69d85,plain
-editor.preprocessor.style = #9b9b9b,plain
+# void, int, const, HIGH...
+editor.reserved_word_2.style = #CC7832,plain
+# frue, false
+editor.literal_boolean.style = #CC7832,plain
+# 'c'
+editor.literal_char.style = #A5C261,plain
+# "some string"
+editor.literal_string_double_quote.style = #6A8759,plain
+# #define, #include
+editor.preprocessor.style = #BBBBBB,plain
 
 # http://www.arduino.cc/ - GET RID OF UNDERLINE!
 editor.url.style = #21A0A4,plain
 
 # e.g. + - = /
-editor.operator.style = #b4b4b4,plain
+editor.operator.style = #BBBBBB,plain
 
 
 # ?? maybe this is for words followed by a colon
@@ -114,8 +121,8 @@ editor.label.style = #5FB3B3,bold
 
 
 # TEXT - COMMENTS
-editor.comment1.style = #57a64a,plain
-editor.comment2.style = #57a64a,plain
+editor.comment1.style = #629755,plain
+editor.comment2.style = #629755,plain
 
 
 # LINE STATUS - editor line number status bar at the bottom of the screen
